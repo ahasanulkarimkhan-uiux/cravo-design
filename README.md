@@ -1,8 +1,10 @@
-# Cravo — Responsive Food Delivery Homepage
+# Cravo | Responsive Food Discovery Website
 
 A self-initiated UI/UX design concept by **Ahasanul Karim Khan**, created in Figma for desktop, tablet and mobile.
 
 [View the full Cravo case study on Behance](https://www.behance.net/gallery/256962485/Cravo-Responsive-Food-Discovery-Website-UXUI-Concept)
+
+![Cravo concept showing address entry across desktop, tablet and mobile](assets/cravo-cover.png)
 
 ## Overview
 
@@ -15,6 +17,12 @@ Cravo explores two ways to begin looking for food: entering a delivery address a
 - Adapted category browsing, restaurant cards and dish grids across three screen widths.
 - Revised layouts following design review, including copy containment and mobile footer link sizing.
 
+## Responsive preview
+
+![Opening-screen compositions at desktop 1600 px, tablet 834 px and mobile 390 px](assets/cravo-responsive-showcase.png)
+
+These are selected Figma presentation excerpts. Photography is omitted from this repository's previews. Addresses, ratings, delivery times and fees are illustrative. The frames show design compositions rather than a working service.
+
 ## Design decisions
 
 | Decision | Intent |
@@ -25,7 +33,7 @@ Cravo explores two ways to begin looking for food: entering a delivery address a
 | Use a two-column mobile dish grid | Keep individual dish browsing visually distinct from restaurant comparison. |
 | Reserve room for restaurant ratings | Allow longer restaurant names to wrap without crowding the rating. This is a review requirement; final verification remains open. |
 
-See [design notes](docs/design-decisions.md) for scope and evidence boundaries.
+See [design notes](docs/design-decisions.md) for scope and evidence boundaries, and [asset notes](docs/assets.md) for the preview sources.
 
 ## Deliverable scope
 
@@ -37,4 +45,4 @@ This is a concept project. Restaurant names, ratings, prices, delivery estimates
 
 [Ahasanul Karim Khan on Behance](https://www.behance.net/ahasanulkarim1808) · [GitHub](https://github.com/ahasanulkarimkhan-uiux)
 
-Selected screen exports will be added after verification. No open-source license is granted by this repository.
+No open-source license is granted by this repository.
