@@ -2,6 +2,8 @@
 
 A self-initiated UI/UX design concept by **Ahasanul Karim Khan**, created in Figma for desktop, tablet and mobile.
 
+[View the full Cravo case study on Behance](https://www.behance.net/gallery/256962485/Cravo-Responsive-Food-Discovery-Website-UXUI-Concept)
+
 ## Overview
 
 Cravo explores two ways to begin looking for food: entering a delivery address and browsing dishes. The homepage brings categories, restaurants and dishes into a responsive layout.
@@ -35,4 +37,4 @@ This is a concept project. Restaurant names, ratings, prices, delivery estimates
 
 [Ahasanul Karim Khan on Behance](https://www.behance.net/ahasanulkarim1808) · [GitHub](https://github.com/ahasanulkarimkhan-uiux)
 
-Project-specific public links and selected screen exports will be added after verification. No open-source license is granted by this draft.
+Selected screen exports will be added after verification. No open-source license is granted by this repository.
