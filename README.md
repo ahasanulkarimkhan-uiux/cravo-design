@@ -4,6 +4,8 @@ A self-initiated UI/UX design concept by **Ahasanul Karim Khan**, created in Fig
 
 [View the full Cravo case study on Behance](https://www.behance.net/gallery/256962485/Cravo-Responsive-Food-Discovery-Website-UXUI-Concept)
 
+[Open the executable prototype](index.html) · [Review the design tokens](docs/tokens.md)
+
 ![Cravo concept showing address entry across desktop, tablet and mobile](assets/cravo-cover.png)
 
 ## Overview
@@ -16,6 +18,7 @@ Cravo explores two ways to begin looking for food: entering a delivery address a
 - Organized address entry and dish browsing as separate starting actions.
 - Adapted category browsing, restaurant cards and dish grids across three screen widths.
 - Revised layouts following design review, including copy containment and mobile footer link sizing.
+- Added a token-based HTML/CSS/JavaScript prototype for executable responsive evidence.
 
 ## Responsive preview
 
@@ -33,11 +36,11 @@ These are selected Figma presentation excerpts. Photography is omitted from this
 | Use a two-column mobile dish grid | Keep individual dish browsing visually distinct from restaurant comparison. |
 | Reserve room for restaurant ratings | Allow longer restaurant names to wrap without crowding the rating. This is a review requirement; final verification remains open. |
 
-See [design notes](docs/design-decisions.md) for scope and evidence boundaries, and [asset notes](docs/assets.md) for the preview sources.
+See [design notes](docs/design-decisions.md) for scope and evidence boundaries, [design tokens](docs/tokens.md) for the Figma-to-code source of truth, and [asset notes](docs/assets.md) for the preview sources.
 
 ## Deliverable scope
 
-Responsive Figma homepage compositions and documented design intent. This repository does not currently contain application code, a working address lookup, checkout or a deployed service.
+Responsive Figma homepage compositions, documented design intent and a static executable prototype. The prototype contains no working address lookup, checkout, payment or deployed food-ordering service.
 
 This is a concept project. Restaurant names, ratings, prices, delivery estimates, fees and promotions are illustrative. No user-testing, launch or business-impact results are claimed.
 
@@ -46,3 +49,4 @@ This is a concept project. Restaurant names, ratings, prices, delivery estimates
 [Ahasanul Karim Khan on Behance](https://www.behance.net/ahasanulkarim1808) · [GitHub](https://github.com/ahasanulkarimkhan-uiux)
 
 No open-source license is granted by this repository.
+

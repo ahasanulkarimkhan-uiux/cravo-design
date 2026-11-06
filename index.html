@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cravo responsive food discovery concept — an executable portfolio prototype by Ahasanul Karim Khan.">
+  <title>Cravo — Food discovery concept</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Cravo home">cravo<span>.</span></a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="sr-only">Toggle navigation</span><span aria-hidden="true">☰</span>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <a href="#restaurants">Restaurants</a>
+        <a href="#dishes">Dishes</a>
+        <a href="#how-it-works">How it works</a>
+        <a class="button button-small button-ghost" href="#download">Get the app</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Local flavour, delivered</p>
+          <h1>Good food, <em>closer</em> than you think.</h1>
+          <p class="hero-intro">Start with your delivery address or browse the dishes people near you keep coming back for.</p>
+          <form class="address-form" id="address-form" novalidate>
+            <label for="address">Delivery address</label>
+            <div class="address-row">
+              <input id="address" name="address" autocomplete="street-address" placeholder="Enter a street or neighbourhood" required minlength="4">
+              <button class="button button-primary" type="submit">Check address</button>
+            </div>
+            <p class="form-status" id="address-status" role="status" aria-live="polite">Concept demo — no address data is sent.</p>
+          </form>
+          <a class="browse-link" href="#dishes">Browse dishes instead <span aria-hidden="true">→</span></a>
+          <dl class="proof-row" aria-label="Concept highlights">
+            <div><dt>4.8/5</dt><dd>illustrative rating</dd></div>
+            <div><dt>30 min</dt><dd>sample delivery</dd></div>
+            <div><dt>3 widths</dt><dd>responsive design</dd></div>
+          </dl>
+        </div>
+        <div class="hero-visual" aria-label="Abstract food plate illustration">
+          <div class="plate plate-large"><span class="garnish garnish-a"></span><span class="garnish garnish-b"></span><span class="food-shape food-a"></span><span class="food-shape food-b"></span></div>
+          <div class="floating-card floating-rating"><strong>4.8</strong><span>guest favourite</span></div>
+          <div class="floating-card floating-time"><strong>25–30</strong><span>minutes</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-categories" aria-labelledby="category-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">Pick a craving</p><h2 id="category-title">What sounds good today?</h2></div><a href="#dishes">View all dishes</a></div>
+        <div class="category-grid">
+          <a class="category-card" href="#dishes"><span aria-hidden="true">🍜</span><strong>Noodles</strong><small>18 dishes</small></a>
+          <a class="category-card" href="#dishes"><span aria-hidden="true">🥗</span><strong>Fresh bowls</strong><small>14 dishes</small></a>
+          <a class="category-card" href="#dishes"><span aria-hidden="true">🍕</span><strong>Pizza</strong><small>22 dishes</small></a>
+          <a class="category-card" href="#dishes"><span aria-hidden="true">🍛</span><strong>Local plates</strong><small>27 dishes</small></a>
+          <a class="category-card" href="#dishes"><span aria-hidden="true">🥐</span><strong>Bakery</strong><small>11 dishes</small></a>
+          <a class="category-card" href="#dishes"><span aria-hidden="true">🍨</span><strong>Dessert</strong><small>16 dishes</small></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="restaurants" aria-labelledby="restaurant-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">Near your neighbourhood</p><h2 id="restaurant-title">Restaurants worth discovering</h2></div><a href="#restaurants">See all restaurants</a></div>
+        <div class="restaurant-grid">
+          <article class="restaurant-card">
+            <div class="card-art art-terracotta"><span>Warm kitchen</span></div>
+            <div class="card-body"><div class="title-rating"><h3>Casa do Bairro &amp; Seasonal Kitchen</h3><span class="rating">★ 4.9</span></div><p>Portuguese · Seasonal · Comfort food</p><div class="meta"><span>25–35 min</span><span>$2 delivery</span></div></div>
+          </article>
+          <article class="restaurant-card">
+            <div class="card-art art-green"><span>Garden table</span></div>
+            <div class="card-body"><div class="title-rating"><h3>Olive &amp; Grain</h3><span class="rating">★ 4.7</span></div><p>Mediterranean · Bowls · Vegetarian</p><div class="meta"><span>20–30 min</span><span>Free delivery</span></div></div>
+          </article>
+          <article class="restaurant-card">
+            <div class="card-art art-amber"><span>Daily bake</span></div>
+            <div class="card-body"><div class="title-rating"><h3>Rua 8 Bakehouse</h3><span class="rating">★ 4.8</span></div><p>Bakery · Brunch · Coffee</p><div class="meta"><span>15–25 min</span><span>$1 delivery</span></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="promo">
+      <div class="container promo-inner"><div><p class="eyebrow">A lighter lunch</p><h2>Save 20% on selected bowls</h2><p>Illustrative promotion for this portfolio concept. Terms and restaurant availability are not real.</p></div><a class="button button-secondary" href="#dishes">Explore the selection</a></div>
+    </section>
+
+    <section class="section" id="dishes" aria-labelledby="dish-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">Popular right now</p><h2 id="dish-title">Dishes to start with</h2></div><a href="#dishes">See the full menu</a></div>
+        <div class="dish-grid">
+          <article class="dish-card"><div class="dish-art dish-one" aria-hidden="true"></div><div><h3>Roasted pepper pasta</h3><p>Casa do Bairro</p><strong>$14.00</strong></div></article>
+          <article class="dish-card"><div class="dish-art dish-two" aria-hidden="true"></div><div><h3>Green harvest bowl</h3><p>Olive &amp; Grain</p><strong>$12.50</strong></div></article>
+          <article class="dish-card"><div class="dish-art dish-three" aria-hidden="true"></div><div><h3>Charred chicken plate</h3><p>Fogo Table</p><strong>$16.00</strong></div></article>
+          <article class="dish-card"><div class="dish-art dish-four" aria-hidden="true"></div><div><h3>Citrus ricotta toast</h3><p>Rua 8 Bakehouse</p><strong>$9.50</strong></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section steps" id="how-it-works" aria-labelledby="steps-title">
+      <div class="container"><p class="eyebrow">From craving to table</p><h2 id="steps-title">Three clear steps</h2><ol class="step-grid"><li><span>01</span><h3>Set your area</h3><p>Check where a restaurant could deliver before treating availability as confirmed.</p></li><li><span>02</span><h3>Compare clearly</h3><p>Review dish, restaurant, price and estimated time without crowding the card.</p></li><li><span>03</span><h3>Choose confidently</h3><p>Continue into checkout in a future product build. Checkout is outside this concept.</p></li></ol></div>
+    </section>
+
+    <section class="download" id="download">
+      <div class="container download-inner"><div><p class="eyebrow">Cravo in your pocket</p><h2>A responsive concept, ready to test.</h2><p>This executable prototype demonstrates the visual system and layout behaviour. It does not install an app or process orders.</p></div><div class="download-actions"><a class="button button-light" href="https://www.behance.net/gallery/256962485/Cravo-Responsive-Food-Discovery-Website-UXUI-Concept">View case study</a><a class="button button-outline-light" href="https://github.com/ahasanulkarimkhan-uiux/cravo-design">View source</a></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="#top">cravo<span>.</span></a><p>Self-initiated UI/UX concept by Ahasanul Karim Khan.</p><nav aria-label="Footer navigation"><a href="#restaurants">Restaurants</a><a href="#dishes">Dishes</a><a href="#how-it-works">How it works</a></nav></div></footer>
+</body>
+</html>
+
