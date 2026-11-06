@@ -18,7 +18,7 @@
 
 ## Review
 
-- [ ] Run the final rendered 1600, 834, 390, 360 and 320 px audit.
-- [ ] Synchronise verified files to the GitHub repository.
-- [ ] Add deployment URL after GitHub Pages is enabled.
+- [x] Run the final rendered 1600, 834, 390, 360 and 320 px audit.
+- [x] Synchronise verified files to the GitHub repository.
+- [x] Enable GitHub Pages and record the live deployment URL.
 

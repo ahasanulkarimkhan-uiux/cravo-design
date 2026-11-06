@@ -4,7 +4,7 @@ A self-initiated UI/UX design concept by **Ahasanul Karim Khan**, created in Fig
 
 [View the full Cravo case study on Behance](https://www.behance.net/gallery/256962485/Cravo-Responsive-Food-Discovery-Website-UXUI-Concept)
 
-[Open the executable prototype](index.html) · [Review the design tokens](docs/tokens.md)
+[Open the live executable prototype](https://ahasanulkarimkhan-uiux.github.io/cravo-design/) · [Review the design tokens](docs/tokens.md)
 
 ![Cravo concept showing address entry across desktop, tablet and mobile](assets/cravo-cover.png)
 
@@ -36,7 +36,7 @@ These are selected Figma presentation excerpts. Photography is omitted from this
 | Use a two-column mobile dish grid | Keep individual dish browsing visually distinct from restaurant comparison. |
 | Reserve room for restaurant ratings | Allow longer restaurant names to wrap without crowding the rating. This is a review requirement; final verification remains open. |
 
-See [design notes](docs/design-decisions.md) for scope and evidence boundaries, [design tokens](docs/tokens.md) for the Figma-to-code source of truth, and [asset notes](docs/assets.md) for the preview sources.
+See [design notes](docs/design-decisions.md) for scope and evidence boundaries, [design tokens](docs/tokens.md) for the Figma-to-code source of truth, [rendered audit](docs/rendered-audit.md) for responsive verification, and [asset notes](docs/assets.md) for the preview sources.
 
 ## Deliverable scope
 
