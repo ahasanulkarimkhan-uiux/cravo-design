@@ -30,4 +30,3 @@ addressForm?.addEventListener('submit', event => {
   addressStatus.textContent = `Demo state: “${value}” looks ready to check. No lookup was performed.`;
   addressStatus.classList.add('success');
 });
-
